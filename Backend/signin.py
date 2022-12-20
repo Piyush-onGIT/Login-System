@@ -1,14 +1,12 @@
 import csv
 import sys
 
-name = str(sys.argv[1])
-passd = str(sys.argv[2])
-
-f = open("users.csv", "r")
-data = csv.reader(f)
-# f.close()
-
 try:
+    name = str(sys.argv[1])
+    passd = str(sys.argv[2])
+
+    f = open("users.csv", "r")
+    data = csv.reader(f)
     for i in data:
         if (len(i) == 0):
             continue

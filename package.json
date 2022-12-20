@@ -1,5 +1,5 @@
 {
-  "name": "Login_System",
+  "name": "todo",
   "version": "1.0.0",
   "description": "A software where users can make a Login_System list and a schedule for themselves.",
   "main": "main.js",

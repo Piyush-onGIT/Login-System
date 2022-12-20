@@ -8,3 +8,5 @@ Run this command to create node_modules folder
 
 `npm start`
 Run this command to launch the app
+
+Note: Please rename the parent folder of this project as ToDo
